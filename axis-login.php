@@ -21,7 +21,7 @@ $dataToEncode = [
     'Risks' => [],
 ];
 
-$privateKey = JWK::createFromKeyFile('path/to/your/private-key.pem');
+$privateKey = JWK::createFromKeyFile('private-key.pem');
 
 $jwe = (new JWEBuilder())
     ->create()
