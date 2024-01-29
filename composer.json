@@ -1,0 +1,23 @@
+{
+    "name": "Dab-axis",
+    "description": "Data Integration",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ankush",
+            "email": "ankush.thakur@heliostechlabs.com"
+        }
+    ],
+    "require": {
+        "lcobucci/jose": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace": "/home/ec2-user/axis-api"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
